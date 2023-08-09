@@ -1,0 +1,21 @@
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding:2vmax 3vmax;
+}
+.navCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navCard>span{
+    color:orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navCard>p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navCard>img{
+    width: 15vmax;
+}

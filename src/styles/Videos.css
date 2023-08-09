@@ -1,0 +1,39 @@
+.videos{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2vmax 0;
+}
+.video{
+    width: 31vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.video>img{
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+}
+.video p,a{
+    position :relative;
+    z-index: 200;
+}
+.video a{
+    padding: 2.5vmax;
+    border-radius: 100%;
+    background-color: rgba(82, 82, 82,0.1);
+}
+.video:hover a{
+    background-color:rgba(255, 255, 255,0.5);
+}
+.video a>svg{
+    fill:white;
+}
+.video p{
+    margin-top:2vmax;
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+}

@@ -1,0 +1,15 @@
+.hotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vmax;
+}
+.hotAccessoriesLink{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    margin:1vmax;
+    padding: 0.5vmax 0;
+}
+.hotAccessoriesLink:hover{
+    border-bottom: 1px solid orangered;
+    color: orangered;
+}

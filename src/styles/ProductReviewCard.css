@@ -1,0 +1,25 @@
+.productReviewCard{
+    transition: all 0.5s;
+    margin: 0.5vmax;
+}
+.productReviewCard:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(59, 59, 59, 0.3);
+    z-index: 200;
+    transform: translateY(-0.4vmax);
+}
+.productReviewCard p{
+    font-size:1.7vmax;
+    margin:2vmax 0 0.5vmax 2vmax;
+}
+.productReviewCard b{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2vmax;
+}
+.productReviewCard span{
+    margin: 0 2vmax;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color:rgb(41, 41, 41);
+}

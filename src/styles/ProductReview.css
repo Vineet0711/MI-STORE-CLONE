@@ -1,0 +1,6 @@
+.productReview{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    margin:1vmax auto;
+}
